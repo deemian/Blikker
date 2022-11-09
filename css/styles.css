@@ -1,0 +1,118 @@
+body {
+    background-image: url(../images/sinterklaaswithaswordgooglyeyes.png);
+}
+
+nav {
+    position: sticky !important;
+    top:0px !important;
+ }
+
+ input{
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    box-shadow: none !important;
+    position: relative !important;
+    vertical-align: top !important;
+    width:90vw !important;
+    padding: 10px !important;
+    margin-left:5vw !important;
+    margin-right:5vw !important;
+    border-radius:5px !important;
+    border-color: lightblue !important;
+ }
+
+ h1 {
+    text-shadow: black 5px 0 5px;
+    font-size:300% !important;
+ }
+
+ input select {
+    border-color: lightblue !important;
+ }
+
+ #fadeimage {
+    position:absolute !important;
+ }
+ #heerlijkavondje {
+    width:100vw !important;
+ }
+
+ section#forms {
+    background-color:white;
+    margin: 0 auto;
+    max-width:35vw;
+    padding: 3vw;
+    padding-left: 5vw;
+    font-size:110%;
+}
+
+div.formrule {
+    display:flex;
+    justify-content: space-between;
+    padding:2px;
+}
+
+div.formrule input {
+    background-color: lightgray;
+    border: none;
+    padding: 10px;
+    width: 15vw;
+}
+
+div.formrule select {
+    background-color: lightgray;
+    border: none;
+    padding: 10px;
+    width: 16.3vw;
+}
+
+div.formrule textarea {
+    background-color: lightgray;
+    border: none;
+    padding: 10px;
+    width: 15vw;
+}
+
+div button {
+    margin-top:5vh;
+    background-color: rgb(66, 9, 128);
+    color:white;
+    border: none;
+    width: 35vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-size:115%;
+    cursor: pointer;
+}
+
+div button:hover {
+    background-color: rgb(191, 0, 255);
+    color:white;
+}
+
+section#forms div{
+    display:flex;
+}
+
+footer {
+    margin-top:80vh;
+
+}
+
+#dankjewel {
+    background-color: rgb(225, 103, 148);
+    padding: 15px;
+}
+
+.card {
+    max-width: 20vw;
+    margin:20px;
+}
+
+.products{
+    display:flex;
+    margin-top:30vh;
+    margin-left:10vw;
+}

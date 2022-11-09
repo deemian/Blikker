@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Watch out!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+
+
+
+<body>
+
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="index.html" target="_blank">
+                <img src="./images/sinterklaaswithasword.png" width="50" height="28">
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="index.html">
+                    Home
+                </a>
+
+                <a class="navbar-item" href="wekkerautos.html">
+                    Wekker Auto's
+                </a>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        More
+                    </a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item">
+                            About
+                        </a>
+                        <a class="navbar-item">
+                            Jobs
+                        </a>
+                        <a class="navbar-item">
+                            Contact
+                        </a>
+                        <hr class="navbar-divider">
+                        <a class="navbar-item">
+                            Report an issue
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a class="button is-primary">
+                            <strong>Sign up</strong>
+                        </a>
+                        <a class="button is-light">
+                            Log in
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="box has-background-grey-lighter p-2">
+        Voor vandaag 23:59 besteld is morgen in huis!
+    </div>
+
+    <section id="forms">
+        <form action="signup-bedankt.html">
+
+            <div class="formrule">
+                <label for="name"> Voornaam </label>
+                <input id="name" name="name" type="text" placeholder="Typ hier je naam" required>
+            </div>
+
+            <div class="formrule">
+                <label for="city"> Woonplaats </label>
+                <input id="city" name="city" type="text" placeholder="Typ hier je woonplaats" required>
+            </div>
+
+            <div class="formrule">
+                <label for="email"> Email </label>
+                <input id="email" name="email" type="email" placeholder="example@hr.nl" required>
+            </div>
+
+            <div class="formrule">
+                <label for="password"> Wachtwoord </label>
+                <input id="password" name="password" type="password" placeholder="wachtwoord" required>
+            </div>
+
+            <div class="formrule">
+                <label for="confirmpassword"> Wachtwoord </label>
+                <input id="confirmpassword" name="confirmpassword" type="password" placeholder="nog een keer wachtwoord"
+                    required>
+            </div>
+
+            <div>
+                <input id="news" name="news" type="checkbox">
+                <label for="news"> Schrijf me in voor de nieuwsbrief </label>
+            </div>
+
+            <div>
+                <input id="agree" name="agree" type="checkbox" required>
+                <label for="agree"> Ik ga akkoord met de voorwaarden </label>
+            </div>
+
+
+            <div>
+                <button type="submit"> Versturen </button>
+            </div>
+
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                2022 Blikker. Alle rechten voorbehouden.
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
